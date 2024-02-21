@@ -7,13 +7,32 @@
 
 #navbar{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     width: 100vw;
     padding: 4vh 0px;
     background-color: rgb(169, 169, 255);
     list-style-type: none;
     font-size: 1.2rem; 
+    
 }
+#ul_navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30vw;
+    align-items: center;
+}
+
+#profile_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#person_profile{
+    width: 5vw;
+}
+
 
 #me{
     display: flex;
@@ -31,17 +50,17 @@ text{
     font-size: 1.1rem;
 }
 #profile-photo{
-    border: 3px solid black;
+    border: 2px solid black;
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-image: url("../img/profile");
+    background-image: url("../img/profile.jpg");
     background-color: #cccccc;
     background-position: center; /* centraliza a img */
     background-repeat: no-repeat; /* ñ repete a img*/
     background-size: cover; /* Resize the background image to cover the entire container */
 }
-
+/*INDEX | SKILLS */
 #skills{
     width: 100vw;
     text-align: center;
@@ -64,7 +83,64 @@ text{
     padding: 15px 40px;
     justify-content: center;
 }
+/*INDEX | CURSOS */
+#cursos{
+    width: 100vw;
+    margin: 0px 30px;
+    text-align: justify;
+}
+#session_title{
+    margin-left: 30px;
+    color: rgb(24, 18, 18);
+    font-size: 2rem;
+    margin: 40px 0px 30px 50px;
+}
+.cursos_box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.img_curso{
+    width: 200px;
+    border-radius: 10px;
+}
+.curso_title{
+    font-size: 2rem;
+}
+.curso_desc{
+    width: 70vw;
+    padding: 35px 0px;
+}
+/*.curso_conclusao{
+    
+}*/
+hr{
+    width: 40vw;
+    border: 1px solid orangered;
+    display: flex;
+    margin: 40px auto;
+}
 
+/*PÁG CONTATOS*/
+#contact{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p_contact:nth-child(1){
+    padding-bottom: 5vh;
+}
+
+.p_contact{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+/*RODAPÉ*/
 footer{
     width: 100vw;
     bottom: 0;

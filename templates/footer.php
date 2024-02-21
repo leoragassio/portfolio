@@ -10,7 +10,10 @@
     </div>
 
     <p>
-        Desenvolvido em PHP por Leonardo Lima Ragassio &copy; <?php echo date("Y")?>
+        Desenvolvido por Leonardo Lima Ragassio &copy; <?php echo date("Y")?>
+    </p>
+    <p>
+        Link do código deste projeto: <a target="_blank"  href="https://github.com/leoragassio/portfolio">Aqui</a>
     </p>
 
 </footer>

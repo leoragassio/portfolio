@@ -23,7 +23,7 @@
 </div>
 
 <div id="skills">
-
+    <h2 id="session_title">Skills </h2>
     <p class="text">Confira alguns de meus conhecimentos abaixo: </p>
     
     <div id="div-img-skills">
@@ -44,8 +44,26 @@
 </div>
 
 <div id="cursos">
+    <h2 id="session_title">Cursos </h2>
+    <?php foreach($cursos as $curso) : ?>
+        <div class="cursos_box">
 
+            <div><!--Left div-->
+            <img class="img_curso" src="<?=$BASE_URL?>/fotoCurso/<?=$curso['fotoCurso']?>" alt="Imagem do curso de <?=$curso['nomeCurso']?>">
+            </div>
+
+            <div><!--Right div-->
+                <h2 class="curso_title"><?= $curso['nomeCurso']?></h2>
+                
+                <p class="curso_desc"><?= $curso['descCurso']?></p>
+                <p class="curso_conclusao"><strong>Status</strong>: <?= $curso['conclusao']?></p>
+            </div>
+        
+        </div>
+        
+        <hr><!-- linha  -->
+    
+    <?php endforeach ?>    
 </div>
 
 <?php include_once("templates/footer.php")?>
-    
