@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 4vh 0px;
+    background-color: rgb(169, 169, 255);
+    list-style-type: none;
+    font-size: 1.2rem; 
+}
+
+#me{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15vh 0px;
+}
+#welcome{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.8rem;
+}
+
+text{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1.1rem;
+}
+#profile-photo{
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url("../img/profile");
+    background-color: #cccccc;
+    background-position: center; /* centraliza a img */
+    background-repeat: no-repeat; /* ñ repete a img*/
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#skills{
+    width: 100vw;
+    text-align: center;
+}
+
+#skills > p{
+    font-size: 1.3rem;
+    padding: 30px 0px;
+}
+
+#div-img-skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 20vw;
+    justify-content: center;
+}
+
+.img-skills{
+    width: 130px;
+    padding: 15px 40px;
+    justify-content: center;
+}
+
+footer{
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    padding: 5px 0px;
+}
+
+footer > p {
+    padding: 20px 0px;
+}
+
+.footer-links{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.img-footer{
+    padding: 10px 30px;
+    width: 50px;
+}
