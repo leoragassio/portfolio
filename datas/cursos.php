@@ -3,13 +3,13 @@
 $cursos = [
     [
         'fotoCurso' => "html" . rand(1,3) . ".png",
-        'nomeCurso' => 'Curso de HTML e CSS | Módulos 1,2 e 3 - Curso em Vídeo ',
+        'nomeCurso' => 'Curso de HTML e CSS | Módulos 1, 2 e 3 - Curso em Vídeo ',
         'descCurso' => 'No curso de HTML e CSS do Profº Gustavo Guanabara foi ensinado a introdução das linguagens de marcação e estilo.',
         'conclusao' => 'Módulos 1 e 2 concluidos em 2022, Módulo 3 concluido em 2023.'
     ],
     [
         'fotoCurso' => "php1.png",
-        'nomeCurso' => 'Curso de PHP Moderno | Módulos 1 - Curso em Vídeo ',
+        'nomeCurso' => 'Curso de PHP Moderno | Módulo 1 - Curso em Vídeo ',
         'descCurso' => 'No curso de PHP do Profº Gustavo Guanabara foi apresentada a linguagem PHP num nível basico junto a lógica de progração.',
         'conclusao' => 'Concluido em 2023.'
     ],
