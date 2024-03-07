@@ -1,6 +1,7 @@
 <?php include_once("helpers/url.php")?>
 <?php include_once("datas/cursos.php")?>
 <?php include_once("datas/projetos.php")?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -28,9 +29,10 @@
     <header>
     <nav id="navbar"> 
             
-            <div id="profile_header">
-                <img id="person_profile" src="<?= $BASE_URL?>/img/perfil/person_profile" alt="Minha imagem">
-                <p>@leoragassio</p>
+            <div>
+                <a class="profile_header" href="<?= $BASE_URL ?>" target="self" >
+                    <img id="logo" src="<?= $BASE_URL?>/img/logo/logo.png" alt="Minha imagem">
+                </a>
             </div>
 
             <ul id="ul_navbar">

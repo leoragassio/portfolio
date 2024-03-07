@@ -21,6 +21,12 @@ $cursos = [
     
     ],
     [
+        'fotoCurso' => 'phppoo.png',
+        'nomeCurso' => 'PHP - Programação Orientada a Objetos',
+        'descCurso' => 'Curso completo de Programação Orientada a Objetos (POO) com a linguagem PHP. Aborda os principais conceitos como Classes, Objetos, instanciamento, abstração, encapsulamento, herança, polimorfismo e muito mais. Criado pelo professor Gustavo Guanabara para o Curso em Vídeo, explica todos os conceitos de POO de uma maneira simples, objetiva e divertida.',
+        'conclusao' => 'Cursando...'
+    ],
+    [
         'fotoCurso' => '2.jpg',
         'nomeCurso' => 'Desenvolvimento Web Compacto e Completo',
         'descCurso' => 'O curso do Profº João Riberiro conta com 92 horas de aprendizado desde o HTML até sistemas complexos como principal ferramenta o PHP.',
