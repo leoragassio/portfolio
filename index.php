@@ -1,7 +1,7 @@
 <?php include_once("templates/header.php")?>
 
 <div id="me">
-
+    
     <div id="welcome">
         <p class="text" >Olá, seja bem-vindo ao meu portfólio!</p>
         <p class="text" >Sou Leonardo Lima Ragassio </p>

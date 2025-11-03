@@ -39,8 +39,17 @@ $projetos = [
         'nome' => "Android News",
         'foto' => 'android.png',
         'link' => 'https://androidnewsnet.netlify.app',
-        'descricao'=> 'Android News foi meu primeiro site em HTML e CSS.',
+        'descricao'=> 'Android News foi meu primeiro site em HTML e CSS, feito pelo curso do Gustavo Guanabara HTML e CSS - Módulo 1',
         'data' =>  '2021',
+    ],
+    [
+        'id' => 6,
+        'nome' => 'Auto Vidro e Chaveiro Vila Formosa',
+        'foto' => 'autoVidro.png',
+        'link' => 'https://autovidrovilaformosa.netlify.app/',
+        'descricao'=> 'Auto Vidro e Chaeiro Vila formosa é uma empresa com foco em manutenção de veiculos na Região da Vila Formosa - Zona Leste de São Paulo.',
+        'data' =>  '2024',
+
     ],
 ];
 

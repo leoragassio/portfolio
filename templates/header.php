@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leonardo Lima Ragassio | Portfólio</title>
-    <link rel="stylesheet" href="<?= $BASE_URL?>/css/style.css">
+    <link rel="stylesheet" href="<?= $BASE_URL?>css/style.css">
 
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="<?= $BASE_URL?>/fav/apple-touch-icon.png">
